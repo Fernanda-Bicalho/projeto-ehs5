@@ -1,0 +1,168 @@
+form {
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+    height: 85vh;
+    background-image: url(../images/logo-opaca.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 50%;
+    background-attachment: fixed;
+}
+
+.tabela {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 40vh;
+    background-image: url(../images/logo-opaca.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 50%;
+    background-attachment: fixed;
+}
+
+table td {
+    background-color: #cae0f7 !important;
+}
+
+table th {
+    background-color: #007199 !important;
+    color: white !important;
+    font-size: small;
+}
+
+.navbar {
+    background: linear-gradient(to right, #9ed9ec, #239ac2);
+}
+
+
+#codigo {
+    width: 10%;
+}
+
+#serie {
+    width: 40%;
+}
+
+#escala,
+#situacao {
+    width: 30%;
+}
+
+#min,
+#max {
+    width: 20%;
+}
+
+#localizacao {
+    width: auto;
+}
+
+.blocoImage {
+    width: 20vw;
+    height: 30vh;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 480px) {
+
+    #codigo {
+        width: 30%;
+    }
+
+    #serie {
+        width: auto;
+    }
+
+    #escala,
+    #situacao {
+        width: 72%;
+    }
+
+    #min,
+    #max {
+        width: 30%;
+    }
+
+    #localizacao {
+        width: 58%;
+    }
+
+    .blocoImage {
+        width: 50vw;
+        height: 30vh;
+        display: none;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    #codigo {
+        width: 30%;
+    }
+
+    #serie {
+        width: auto;
+    }
+
+    #escala,
+    #situacao {
+        width: 72%;
+    }
+
+    #min,
+    #max {
+        width: 30%;
+    }
+
+    #localizacao {
+        width: 58%;
+    }
+
+    .blocoImage {
+        width: 50vw;
+        height: 30vh;
+        display: none;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+
+
+@media screen and (min-width: 768px) {
+    #escala {
+        width: 70% !important;
+    }
+
+    #localizacao {
+        width: 70%;
+    }
+
+}
+
+@media screen and (min-width: 1000px) {
+    #escala {
+        width: 30% !important;
+    }
+
+    #localizacao {
+        width: 30%;
+    }
+
+}
